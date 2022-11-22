@@ -1,0 +1,152 @@
+
+.postImgComment{
+    height: 700px;
+}
+.comment-contain{
+    margin: 12px;
+    height: 676px;
+}
+.comment-item{
+    width: 100%;
+    border-bottom: 1px solid rgb(34, 31, 31);
+}
+.comment{
+    margin-bottom: 6px;
+}
+.top{
+    height: 10%;
+}
+.center{
+    height: 80%;
+    overflow: scroll ;
+    overflow-wrap: break-word;
+}
+.bottom{
+    height: 9.7%;
+    position: relative;
+}
+
+.row-top{
+    align-items: center;
+    position: relative;
+}
+
+.topProfileImg {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+.top-user-name{
+    position: absolute;
+    left: 80px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.row-center{
+    align-items: center;
+    width: 100%;
+
+}
+
+.centerProfileImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+.center-user-name{
+    left:50px;
+    top:10px;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.center-user-name-reply{
+    left:50px;
+    top:10px;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.centerReplyProfileImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.reply-comment{
+    width: 95%;
+    margin-left: 10px;
+}
+.time-ago{
+    font-size: 9px;
+    color: rgb(151, 155, 158);
+}
+.userName{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.comment-box{
+    margin-top: 5px;
+    width: 80%;
+    height: 30px;
+    font-size: 11px;
+}
+.reply-btn{
+    cursor: pointer;
+}
+.display-reply{
+    font-size: 10px;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+.send-btn{
+    position: absolute;
+    top: 5px;
+    height: 33px;
+}
+.chatBoxBottom {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+  }
+  .chatMessageInput {
+    width: 80%;
+    height: 50px;
+    padding: 10px;
+    border: none;
+  }
+  
+  .chatSubmitButton {
+    width: 70px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(250, 255, 255);
+    color: rgb(22, 19, 19);
+  }
+  .chatEmojiButton {
+    width: 70px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(250, 255, 255);
+    color: rgb(22, 19, 19);
+  }
+  @media only screen and (max-width: 1200px) {
+    .col-sm-4{
+        display: none;
+    }
+    .col-sm-8{
+        width: 100%;
+    }
+  }
+
+
+

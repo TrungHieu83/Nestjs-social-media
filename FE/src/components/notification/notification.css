@@ -1,0 +1,29 @@
+.notificatio{
+    margin-bottom: 10px;
+    padding: 0;
+}
+.notification-user-img{
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border-radius: 30px;
+}
+.card-header-1{
+    padding: 0;
+    position: relative;
+}
+.notification-user-name{
+    font-weight: 600;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.notification-time{
+    color: rgb(22, 22, 20);
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+.profile-link{
+    text-decoration: none;
+    color: black;
+}

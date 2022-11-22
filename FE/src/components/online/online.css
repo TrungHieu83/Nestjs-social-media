@@ -1,0 +1,61 @@
+.rightbarFriend {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    position: relative;
+  }
+  
+  .rightbarProfileImgContainer {
+    margin-right: 10px;
+    position: relative;
+  }
+  
+  .rightbarProfileImg {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .rightbarOnline{
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background-color: limegreen;
+      position: absolute;
+      top: -2px;
+      right: 0;
+      border: 2px solid white;
+  }
+  
+  .rightbarUsername{
+      font-weight: 500;
+      text-decoration: none;
+      color: black;
+  }
+  .btn-follow{
+    border: none;
+    background: linear-gradient(
+      90deg,
+      rgb(107, 163, 223) 0%,
+      rgb(15, 88, 214) 100%
+    );
+    margin-left: 30px;
+    border-radius: 20px;
+    position: absolute;
+    right: 90px;
+  }
+
+  .followed{
+    position: absolute;
+    text-align: center;
+    background: linear-gradient(
+      90deg,
+      rgb(193, 201, 209) 0%,
+      rgb(145, 155, 173) 100%
+    );
+    width: 80px;
+    margin-left: 30px;
+    border-radius: 20px;
+    right: 90px;
+  }

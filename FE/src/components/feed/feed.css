@@ -1,0 +1,16 @@
+.feed{
+    flex:6;
+}
+
+.feedWrapper{
+    padding: 20px;
+}
+@media only screen and (max-width: 900px) {
+    .feed{
+      width: 100%;
+    }
+  }
+  .isLoading-btn1{
+    margin-left: 300px;
+    margin-top: 300px;
+  }

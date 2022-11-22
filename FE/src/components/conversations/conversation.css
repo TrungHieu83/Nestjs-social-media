@@ -1,0 +1,43 @@
+.conversation {
+  position: relative;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+}
+
+.conversation:hover {
+  background-color: rgb(245, 243, 243);
+}
+
+.conversationImg {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.conversationName {
+  position: absolute;
+   font-size: 17px;
+    font-weight: 500;
+    left: 100px;
+    top: 17px;
+}
+.message1{
+  position:absolute;
+  left: 100px;
+    top: 45px;
+  font-size: 12px;
+  color: rgb(142, 150, 150);
+}
+
+@media screen and (max-width: 768px) {
+  .conversationName {
+    display: none;
+  }
+}
